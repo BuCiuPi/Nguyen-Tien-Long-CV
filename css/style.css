@@ -1,0 +1,161 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.row div {
+    min-width: auto;
+}
+
+.col-5 {
+    min-width: auto;
+    flex-basis: 5%;
+}
+
+.col-10 {
+    flex-basis: 10%;
+}
+
+.col-15 {
+    flex-basis: 15%;
+}
+
+.col-20 {
+    flex-basis: 20%;
+}
+
+.col-25 {
+    flex-basis: 25%;
+}
+
+.col-30 {
+    flex-basis: 30%;
+}
+
+.col-35 {
+    flex-basis: 35%;
+}
+
+.col-40 {
+    flex-basis: 40%;
+}
+
+.col-45 {
+    flex-basis: 45%;
+}
+
+.col-50 {
+    flex-basis: 50%;
+}
+
+.col-55 {
+    flex-basis: 55%;
+}
+
+.col-60 {
+    flex-basis: 60%;
+}
+
+.col-65 {
+    flex-basis: 65%;
+}
+
+.col-70 {
+    flex-basis: 70%;
+}
+
+.col-75 {
+    flex-basis: 75%;
+    min-width: auto;
+}
+
+.col-80 {
+    flex-basis: 80%;
+}
+
+.col-85 {
+    flex-basis: 85%;
+}
+
+.col-90 {
+    flex-basis: 90%;
+}
+
+.col-95 {
+    flex-basis: 95%;
+}
+
+.col-100 {
+    flex-basis: 100%;
+}
+
+.pd-5 {
+    padding: 5px;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+
+.pd-15 {
+    padding: 15px;
+}
+
+.pd-20 {
+    padding: 20px;
+}
+
+.pd-25 {
+    padding: 25px;
+}
+
+.pd-30 {
+    padding: 30px;
+}
+
+.mar-5 {
+    margin: 5px;
+}
+
+.mar-10 {
+    margin: 10px;
+}
+
+.mar-15 {
+    margin: 15px;
+}
+
+.mar-20 {
+    margin: 20px;
+}
+
+.mar-25 {
+    margin: 25px;
+}
+
+.mar-30 {
+    margin: 30px;
+}
+
+
+/* debug */
+
+.debug-css {
+    border: 1px solid red;
+}
+
+
+/* Main */
+
+.main-screen {
+    min-height: 100vh;
+    background-color: black;
+}
