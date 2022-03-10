@@ -2,6 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: black;
+    color: white;
 }
 
 .row {
@@ -98,59 +99,58 @@ body {
 }
 
 .pd-5 {
-    padding: 5px;
+    padding: 0.5rem;
 }
 
 .pd-10 {
-    padding: 10px;
+    padding: 1rem;
 }
 
 .pd-15 {
-    padding: 15px;
+    padding: 1.5rem;
 }
 
 .pd-20 {
-    padding: 20px;
+    padding: 2rem;
 }
 
 .pd-25 {
-    padding: 25px;
+    padding: 2.5rem;
 }
 
 .pd-30 {
-    padding: 30px;
+    padding: 3rem;
 }
 
 .mar-5 {
-    margin: 5px;
+    margin: 0.5rem;
 }
 
 .mar-10 {
-    margin: 10px;
+    margin: 1rem;
 }
 
 .mar-15 {
-    margin: 15px;
+    margin: 1.5rem;
 }
 
 .mar-20 {
-    margin: 20px;
+    margin: 2rem;
 }
 
 .mar-25 {
-    margin: 25px;
+    margin: 2.5rem;
 }
 
 .mar-30 {
-    margin: 30px;
+    margin: 3rem;
 }
 
 
 /* debug */
 
 .debug-css {
-    border: 1px solid red;
-    min-height: 10px;
+    border: 1px solid rgb(0, 255, 21);
     margin: 5px;
 }
 
@@ -161,7 +161,57 @@ body {
     min-height: 100vh;
 }
 
-.btn-setting {
-    width: 3rem;
-    height: 3rem;
+#btn-setting {
+    height: 100px;
+    padding: 50px;
+    /* position: relative;
+    right: 1rem;
+    top: 1rem; */
+}
+
+#btn-CV {
+    text-align: center;
+    text-decoration: none;
+    padding: 2rem 0rem;
+    display: block;
+    font-size: 1rem;
+    color: white;
+    /* background-image: url("../image/btn-small.svg"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#btn-contact {
+    text-align: center;
+    padding: 2rem 0rem;
+    display: block;
+    font-size: 1rem;
+    background-image: url("../image/btn-small.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#btn-start {
+    text-align: center;
+    padding: 2rem 0rem;
+    display: block;
+    font-size: 2rem;
+    background-image: url("../image/btn-small.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.web-name {
+    text-align: center;
+}
+
+.content-cover-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3rem;
 }
