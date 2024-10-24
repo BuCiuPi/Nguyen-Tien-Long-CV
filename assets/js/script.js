@@ -79,7 +79,6 @@ const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
 
 const modalContents = document.querySelectorAll("[data-modal-content]")
-var curSelectedModalContent;
 
 // modal variable
 
@@ -87,16 +86,11 @@ var curSelectedModalContent;
 const testimonialsModalFunc = function (id) {
   modalContainer.classList.toggle("active");
   overlay.classList.toggle("active");
-  console.log(id);
-  console.log(modalContents.length);
    
   for (let i = 0; i < modalContents.length; i++) {
     const element = modalContents[i];
-    console.log(id == element.dataset.id);
     
     if (id == element.dataset.id) {
-      console.log("selected");
-      
       element.classList.add("active");
       continue;
     }
