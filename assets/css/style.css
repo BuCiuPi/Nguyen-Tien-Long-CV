@@ -691,6 +691,73 @@ main {
   margin-right: 5px;
 }
 
+/**
+ * #resume skill 
+ */
+
+.resume-skill {
+  margin-bottom: 30px;
+}
+
+.resume-skill-title {
+  margin-bottom: 20px;
+}
+
+.resume-skill-list {
+  margin: 0 -15px;
+  padding: 25px 15px;
+  padding-bottom: 35px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+}
+
+.resume-skill-item {
+  margin-top: 40px;
+  scroll-snap-align: center;
+}
+
+.resume-skill-title-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(15px, -25px);
+  background: var(--bg-gradient-onyx);
+  border-radius: 20px 20px 10px 10px;
+  box-shadow: var(--shadow-1);
+}
+
+.resume-skill-item-title {
+  margin: 10px 30px 10px 30px;
+}
+
+.resume-skill-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  line-clamp: 4;
+  padding-top: 20px;
+}
+
+.resume-skill-text ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.resume-skill-text ul>li
+{
+  display: block;
+}
+
+.resume-skill-text ul>li>u {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 
 /**
  * #testimonials 
@@ -793,6 +860,11 @@ main {
 .modal-game-video iframe {
   width: 100%;
   height: 700px;
+}
+
+.modal-game-video video {
+  width: 100%;
+  height: auto;
 }
 
 .modal-content hr {
