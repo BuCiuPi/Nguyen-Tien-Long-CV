@@ -1480,6 +1480,10 @@ main {
   border-radius: 4px;
 }
 
+.blog-meta p {
+  color: var(--vegas-gold);
+}
+
 .blog-item-title {
   margin-bottom: 10px;
   line-height: 1.3;
